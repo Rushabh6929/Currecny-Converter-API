@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Currency Converter</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+
+  <!-- <a target="_blank" href="https://icons8.com/icon/TopAxiN82dv9/exchange">Exchange</a> icon by <a target="_blank"
+    href="https://icons8.com">Icons8</a> -->
+
+  <!-- flags icons taken from here -->
+
+
+
+</head>
+
+
+<body>
+
+
+  <!-- NAV BAR SURU -->
+  <nav class="navbar navbar-expand-md navbar- fixed-top navbar-scrolled align-middle mx-auto ">
+    <div class="container-fluid">
+      <img src="Assest/RJ_Black_LOGO-removebg-preview.png" alt="" width="50" height="50"
+        class="d-inline-block align-text-center">
+      <a class="navbar-brand" href="#">R.J. Financial</a>
+
+      <button id="button" class="navbar-toggler" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarResponsive" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+        aria-label="Toggle navigation" input type="button">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse ml-3" id="navbarResponsive">
+        <ul class="navbar-nav p-1">
+          <li class="nav-item">
+            <a class="nav-link" id="dropbtn" href="Assest/under-construction.jpg">About Us</a>
+          </li>
+          <li class="nav-item">
+            <div class="dropdown">
+              <a class="nav-link" id="dropbtn" href="#">Our Services<i class="fa-solid fa-caret-down"></i> </a>
+              <div class="dropdown-content">
+                <a href="#" class="dark"><img src="Assest/Nav-bar drop icons/icons8-debit-card-16.png"> Cards</a>
+
+                <a href="#" class="dark"><img
+                    src="Assest/Nav-bar drop icons/icons8-euro-money-16.png">Loans</a>
+
+                <a href="#" class="dark"><img
+                    src="Assest/Nav-bar drop icons/icons8-car-insurance-16.png">Insurance</a>
+
+                <a href="#" class="dark"><img
+                    src="Assest/Nav-bar drop icons/icons8-bank-building-16.png">Banking</a>
+
+                <a href="#" class="dark"><img src="Assest/Nav-bar drop icons/icons8-stocks-16.png">Investing</a>
+                <a href="#" class="dark"><img src="Assest/Nav-bar drop icons/icons8-tax-16.png">Taxes</a>
+              </div>
+            </div>
+          </li>
+
+          <li class="nav-item">
+            <div class="dropdown">
+              <a class="nav-link" id="dropbtn" href="#">languages<i class="fa-solid fa-caret-down"></i> </a>
+
+              <div class="dropdown-content">
+                <a href="#" class="dark"><img
+                    src="https://www.forbes.com/advisor/wp-content/themes/fadv/assets/img/usa-icon.svg">USA</a>
+
+                <a href="#" class="dark"><img
+                    src="https://www.forbes.com/advisor/wp-content/themes/fadv/assets/img/uk-icon.svg">UK</a>
+
+                <a href="#" class="dark"><img
+                    src="https://www.forbes.com/advisor/wp-content/themes/fadv/assets/img/de-icon.svg">Germany</a>
+
+                <a href="#" class="dark"><img
+                    src="https://www.forbes.com/advisor/wp-content/themes/fadv/assets/img/in-icon.svg">India</a>
+
+                <a href="#" class="dark"><img src="Assest/Nav-bar drop icons/jpicon.png">Japan</a>
+
+              </div>
+            </div>
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link" id="dropbtn" href="Contact.html">Contact Us</a>
+
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+
+  </nav>
+
+  <!-- NAV BAR SAMPLA -->
+
+  <!-- FIRST PAGE SURU -->
+
+  <div id="about" class=" offset container-fluid mt-0">
+    <div class="post heading text-center">
+      <h3 class="display-4 fw-bold">Currency Converter</h3>
+      <hr class="w-75 mx-auto">
+    </div>
+
+    <div class="row">
+      <div class="col-lg-4 col-md-4 p-5 pb-1 pt-1">
+        <img src="Assest/Rushabh.gif" class="img-fluid mx-auto d-block">
+      </div>
+
+
+
+      <div class="col-lg-8 col-md-8 col-12 p-5 pb-1">
+        <h3 class="display-4 fw-bold mx-auto">1 USD To <spam>GBP</spam> <br>
+          Convert United States Dollar To British Pound Sterling & many more
+        </h3>
+
+
+        <h2 class="col-sm-6">Amount to Convert :</h2>
+        </label>
+        <input type="text" class="form-control searchBox mb-3" placeholder="0.00" id="oamount">
+
+
+        <div class="row">
+          <div class="col-sm-6">
+            <div class="input-group mb-3 pt-2">
+              <div class="input-group-prepend">
+                <span class="input-group-text">From</span>
+              </div>
+              <select class="form-control from" id="sel1">
+
+                <option value="">Select One …</option>
+                <option value="USD">USD <span class="currency-flag currency-flag-aoa"></option>
+                <option value="AED">AED</option>
+                <option value="ARS">ARS</option>
+                <option value="AUD">AUD</option>
+                <option value="BGN">BGN</option>
+                <option value="BRL">BRL</option>
+                <option value="BSD">BSD</option>
+                <option value="CAD">CAD</option>
+                <option value="CHF">CHF</option>
+                <option value="CLP">CLP</option>
+                <option value="CNY">CNY</option>
+                <option value="COP">COP</option>
+                <option value="CZK">CZK</option>
+                <option value="DKK">DKK</option>
+                <option value="DOP">DOP</option>
+                <option value="EGP">EGP</option>
+                <option value="EUR">EUR</option>
+                <option value="FJD">FJD</option>
+                <option value="GBP">GBP</option>
+                <option value="GTQ">GTQ</option>
+                <option value="HKD">HKD</option>
+                <option value="HRK">HRK</option>
+                <option value="HUF">HUF</option>
+                <option value="IDR">IDR</option>
+                <option value="ILS">ILS</option>
+                <option value="INR">INR</option>
+                <option value="ISK">ISK</option>
+                <option value="JPY">JPY</option>
+                <option value="KRW">KRW</option>
+                <option value="KZT">KZT</option>
+                <option value="MVR">MVR</option>
+                <option value="MXN">MXN</option>
+                <option value="MYR">MYR</option>
+                <option value="NOK">NOK</option>
+                <option value="NZD">NZD</option>
+                <option value="PAB">PAB</option>
+                <option value="PEN">PEN</option>
+                <option value="PHP">PHP</option>
+                <option value="PKR">PKR</option>
+                <option value="PLN">PLN</option>
+                <option value="PYG">PYG</option>
+                <option value="RON">RON</option>
+                <option value="RUB">RUB</option>
+                <option value="SAR">SAR</option>
+                <option value="SEK">SEK</option>
+                <option value="SGD">SGD</option>
+                <option value="THB">THB</option>
+                <option value="TRY">TRY</option>
+                <option value="TWD">TWD</option>
+                <option value="UAH">UAH</option>
+                <option value="UYU">UYU</option>
+                <option value="ZAR">ZAR</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="col-sm-6">
+            <div class="input-group mb-3 pt-2">
+              <div class="input-group-prepend">
+                <span class="input-group-text">To</span>
+              </div>
+              <select class="form-control to" id="sel2">
+                <option value="">Select One …</option>
+                <option value="USD">USD</option>
+                <option value="AED">AED</option>
+                <option value="ARS">ARS</option>
+                <option value="AUD">AUD</option>
+                <option value="BGN">BGN</option>
+                <option value="BRL">BRL</option>
+                <option value="BSD">BSD</option>
+                <option value="CAD">CAD</option>
+                <option value="CHF">CHF</option>
+                <option value="CLP">CLP</option>
+                <option value="CNY">CNY</option>
+                <option value="COP">COP</option>
+                <option value="CZK">CZK</option>
+                <option value="DKK">DKK</option>
+                <option value="DOP">DOP</option>
+                <option value="EGP">EGP</option>
+                <option value="EUR">EUR</option>
+                <option value="FJD">FJD</option>
+                <option value="GBP">GBP</option>
+                <option value="GTQ">GTQ</option>
+                <option value="HKD">HKD</option>
+                <option value="HRK">HRK</option>
+                <option value="HUF">HUF</option>
+                <option value="IDR">IDR</option>
+                <option value="ILS">ILS</option>
+                <option value="INR">INR</option>
+                <option value="ISK">ISK</option>
+                <option value="JPY">JPY</option>
+                <option value="KRW">KRW</option>
+                <option value="KZT">KZT</option>
+                <option value="MVR">MVR</option>
+                <option value="MXN">MXN</option>
+                <option value="MYR">MYR</option>
+                <option value="NOK">NOK</option>
+                <option value="NZD">NZD</option>
+                <option value="PAB">PAB</option>
+                <option value="PEN">PEN</option>
+                <option value="PHP">PHP</option>
+                <option value="PKR">PKR</option>
+                <option value="PLN">PLN</option>
+                <option value="PYG">PYG</option>
+                <option value="RON">RON</option>
+                <option value="RUB">RUB</option>
+                <option value="SAR">SAR</option>
+                <option value="SEK">SEK</option>
+                <option value="SGD">SGD</option>
+                <option value="THB">THB</option>
+                <option value="TRY">TRY</option>
+                <option value="TWD">TWD</option>
+                <option value="UAH">UAH</option>
+                <option value="UYU">UYU</option>
+                <option value="ZAR">ZAR</option>
+              </select>
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="col-sm-6 mx-auto d-flex justify-content-center">
+          <div class="text-center">
+          </div>
+
+          <!-- convert wala button -->
+          <button class="btn btn-primary convert m-2" type="button" onclick="play()"><audio id="audio"
+              src="Assest/coin sound.mp3"></audio>
+            Convert
+          </button>
+
+          <div class="mt-2 ps-1 pe-1">
+            <img src="Assest/icons8-exchange.gif" style="width: 2.1rem; padding-top: 3px;">
+          </div>
+
+
+          <!-- reset waala button -->
+          <button class="btn btn-primary m-2" onclick="clearVal()">
+            Reset
+          </button>
+        </div>
+
+
+
+        <div id="finalAmount" class="text-center">
+
+          <!--  converted amount  wala-->
+
+
+          <h2>Converted Amount :
+            <span class="finalValue" style="color:black;">
+            </span>
+          </h2>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- <div class="col-sm img-fluid img-fluid d-flex justify-content-center col-8 ">
+
+    <video autoplay muted loop id="myVideo">
+      <source src="Assest/coin exchange.mp4" type="video/mp4">
+    </video>
+  </div> -->
+
+
+  <!-- linking script.js file -->
+  <script src="script.js"></script>
+  <!-- Money Sound Wali Link -->
+  <script>
+    var btn = document.getElementById("button");
+    function play() {
+      var audio = document.getElementById("audio");
+      audio.play();
+    }
+  </script>
+
+</body>
+
+<body>
+
+
+
+</body>
+helow world
+
+</html>
+
+
+<!-- FIRST PAGE SAMPLA -->
+
+<!-- JAVA SCRIPT NAV BAR BLACK WALI -->
+<script>
+  const navEl = document.querySelector('.navbar');
+  window.addEventListener('scroll', () => {
+    if (window.scrollY >= 56) {
+      navEl.classList.add('navbar-scrolled');
+    } else if (window.scrollY < 56) {
+      navEl.classList.remove('navbar-scrolled')
+    }
+  });
+</script>
+<!-- JAVA SCRIPT NAV BAR BLACK WALI -->
+
+
+<!-- JAVA SCRIPT FOR TOGGLE BUTTON MONEY SOUND  -->
+
+<script>
+  var btn = document.getElementById("button");
+  function play() {
+    var audio = document.getElementById("audio");
+    audio.play();
+  }
+</script>
+<!-- JAVA SCRIPT FOR TOGGLE BUTTON MONEY SOUND  -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+
+</html>
